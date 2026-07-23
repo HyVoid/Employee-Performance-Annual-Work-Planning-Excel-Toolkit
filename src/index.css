@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+:root {
+  /* Core Palette (Editorial Aesthetic) */
+  --color-primary: #051C2C;
+  --color-accent: #2251FF;
+  --color-bg: #F5F5F2;
+  --color-muted: #888888;
+  --color-body-text: #051C2C;
+
+  /* Semantic Anomaly Colors */
+  --color-positive: #00C853;
+  --color-negative: #D32F2F;
+
+  /* Surface & Elements */
+  --color-surface: #FFFFFF;
+  --color-input-bg: #FFFDE7;
+  --color-border: #E5E5E0;
+
+  /* Navigation */
+  --nav-bg: #FFFFFF;
+  --nav-border: #E5E5E0;
+  --nav-text: #051C2C;
+  --nav-height: 56px;
+
+  /* Table Header */
+  --table-header-bg: rgba(5, 28, 44, 0.04);
+  --table-header-sep: rgba(5, 28, 44, 0.12);
+
+  /* Insight & Anomaly Surfaces */
+  --insight-bg: rgba(5, 28, 44, 0.04);
+  --anomaly-bg: rgba(211, 47, 47, 0.04);
+
+  /* Typography */
+  --font-heading: 'Georgia', serif;
+  --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Tracking */
+  --tracking-display: -0.02em;
+  --tracking-label: 0.06em;
+
+  /* Shadow Elevation */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.03);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.03);
+  --shadow-lg: 0 12px 28px rgba(5, 28, 44, 0.08);
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-body-text);
+  font-family: var(--font-body);
+  font-size: 13px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.tracking-display {
+  letter-spacing: var(--tracking-display);
+}
+
+.tracking-label {
+  letter-spacing: var(--tracking-label);
+}
+
+/* Editorial Button Utilities */
+.btn-editorial-primary {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 6px 14px;
+  border-radius: 6px;
+  transition: background-color 150ms ease;
+}
+
+.btn-editorial-primary:hover {
+  background-color: #0b2d46;
+}
+
+.btn-editorial-secondary {
+  background-color: #ffffff;
+  color: var(--color-primary);
+  border: 1px solid #DCDCD8;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background-color 150ms ease;
+}
+
+.btn-editorial-secondary:hover {
+  background-color: #F8F8F5;
+}
+
+/* Animations */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp 220ms ease-out forwards;
+}
+
+/* Print CSS for Executive Report A4 */
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .page-wrapper {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .a4-print-page {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+}
+

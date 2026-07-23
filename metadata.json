@@ -1,0 +1,6 @@
+{
+  "name": "Employee Performance & Annual Work Planning Excel Toolkit",
+  "description": "Enterprise-grade employee performance evaluation and annual work plan management system with Excel formula execution engine and Power BI analytics model.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
