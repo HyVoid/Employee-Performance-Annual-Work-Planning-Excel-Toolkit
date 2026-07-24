@@ -26,7 +26,7 @@ Instead of treating performance management as an annual evaluation exercise, it 
 
 The workbook begins with annual work planning, follows every task through its execution lifecycle, automatically identifies schedule risks using configurable RAG indicators, calculates weighted performance scores, and produces management-ready dashboards and printable performance reports.
 
-Because every calculation originates from a structured data model rather than manually maintained worksheets, managers always see the same numbers across operational views, employee summaries, executive dashboards, and Power BI exports. The implementation follows a **Single Source of Truth** architecture that separates data entry, calculation, and reporting into independent layers, making the workbook easier to maintain as organizations grow. :contentReference[oaicite:0]{index=0}
+Because every calculation originates from a structured data model rather than manually maintained worksheets, managers always see the same numbers across operational views, employee summaries, executive dashboards, and Power BI exports. The implementation follows a **Single Source of Truth** architecture that separates data entry, calculation, and reporting into independent layers, making the workbook easier to maintain as organizations grow.
 
 Whether performance reviews occur quarterly or annually, the workbook keeps managers focused on execution quality rather than spreadsheet maintenance.
 
