@@ -9,10 +9,10 @@
 > ## **No signup. No installation. Free.**
 >
 > 🌐 **Open in Browser**  
-> *(HTML live demo link)*
+> [HTML live demo link](https://hyvoid.github.io/Employee-Performance-Annual-Work-Planning-Excel-Toolkit/)
 >
 > 📥 **Download Excel**  
-> *(GitHub Release / Gumroad link)*
+> [Download Link](Employee_Performance_System.xlsx)
 
 ---
 
@@ -34,15 +34,8 @@ Whether performance reviews occur quarterly or annually, the workbook keeps mana
 
 # Screenshots
 
-### Browser Version
+<img width="1536" height="1024" alt="ChatGPT Image Jul 24, 2026, 09_15_52 AM" src="https://github.com/user-attachments/assets/ce60fa69-a3c6-4d8c-8f77-87d97ec9d668" />
 
-<!-- screenshot: browser version -->
-
-*A browser-based operational dashboard for monitoring organizational progress, delivery risk, and employee performance without requiring Excel.*
-
-### Excel Version
-
-<!-- screenshot: excel version -->
 
 *The Excel workbook where annual plans, task progress, weighted evaluations, executive dashboards, and printable reports are maintained from one centralized data model.*
 
