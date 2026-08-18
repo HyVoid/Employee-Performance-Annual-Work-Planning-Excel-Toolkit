@@ -12,7 +12,7 @@
 > [HTML live demo link](https://hyvoid.github.io/Employee-Performance-Annual-Work-Planning-Excel-Toolkit/)
 >
 > 📥 **Download Excel**  
-> [Download Link](https://alexhasgreatestuff.gumroad.com/l/oqwcut)
+> [Download Link](https://alexhasgreatestuff.gumroad.com/l/oqwcut?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=employee-performance-dashboard)
 
 ---
 
