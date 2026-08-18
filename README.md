@@ -32,15 +32,6 @@ Whether performance reviews occur quarterly or annually, the workbook keeps mana
 
 ---
 
-# Screenshots
-
-<img width="1536" height="1024" alt="ChatGPT Image Jul 24, 2026, 09_15_52 AM" src="https://github.com/user-attachments/assets/ce60fa69-a3c6-4d8c-8f77-87d97ec9d668" />
-
-
-*The Excel workbook where annual plans, task progress, weighted evaluations, executive dashboards, and printable reports are maintained from one centralized data model.*
-
----
-
 # What It Helps You Track
 
 - Annual work plans alongside real execution progress instead of static performance scores.
